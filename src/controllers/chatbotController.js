@@ -1,4 +1,6 @@
 require("dotenv").config();
+const PAGE_ACCESS_TOKEN = process.env.PAGE_ACCESS_TOKEN;
+
 let getHomePage = (req, res) => {
     return res.send("Hello")
 };
